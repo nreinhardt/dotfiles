@@ -11,7 +11,7 @@ Concept
 * `.bashrc`
   * Contains code for each new shell.
   * Pre-existing code can stay here.
-  * Must source the appropriate `startup/startup-*.sh` script at the end of the script.
+  * **Must source the appropriate `startup/startup-*.sh` script at the end of the script** (if any)
 * `startup-*.sh`
   * Eg. `startup-yoga.sh`, `startup-waterloo-linux.sh`
   * Collection of scripts, one for each host
@@ -19,7 +19,8 @@ Concept
 * `general.sh`
   * General customization that should apply to all hosts
 * `*.sh`
-  * Other scripts that are run by the host-appropriate `startup-*.sh` script
+  * Eg. `yoga.sh`, `waterloo-linux.sh`
+  * Ideally, configuration specific to each host goes here.
 
 Example
 -------
