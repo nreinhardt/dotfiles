@@ -52,6 +52,7 @@ export LESS="-R"
 # ALIAS
 ###############################################################################
 
-alias ll="ls -l --human-readable -g --no-group -t"
+# List most recent last
+alias ll="ls -l --human-readable -g --no-group -t --reverse"
 alias grep="egrep"
 alias rsync="rsync --progress --human-readable --recursive"
