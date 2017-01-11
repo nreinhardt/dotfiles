@@ -1,4 +1,4 @@
-dir="$(dirname $BASH_SOURCE[0])"
+dir="${0:a:h}"
 
 source $dir/general.sh
 source $dir/waterloo-linux.sh
