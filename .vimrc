@@ -1,13 +1,35 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""
-" AutoSave
-" https://github.com/907th/vim-auto-save
-"""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" VUNDLE
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" Enable AutoSave on startup
-let g:auto_save = 1
-" Silence AutoSave display
-let g:auto_save_silent = 1
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+
+    """""""""""""""""""""""""""""""""""""""""""""""""""""
+    " AutoSave
+    " https://github.com/907th/vim-auto-save
+    """""""""""""""""""""""""""""""""""""""""""""""""""""
+
+    Plugin '907th/vim-auto-save'
+    " Enable AutoSave on startup
+    let g:auto_save = 1
+    " Silence AutoSave display
+    let g:auto_save_silent = 1
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" CUSTOM
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 filetype plugin indent on
 " show existing tab with 4 spaces width
