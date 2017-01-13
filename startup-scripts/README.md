@@ -23,4 +23,4 @@ Example
 
 Host: `Yoga`
 
-`.zshrc` (includes boiler-plater oh-my-zsh stuff) -> `startup/startup-yoga.sh` -> (`general.sh` + `yoga.sh`)
+`.zshrc` (includes boiler-plater oh-my-zsh stuff) -> `startup-yoga.sh` -> (`general.sh` + `yoga.sh`)
