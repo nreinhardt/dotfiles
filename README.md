@@ -10,6 +10,7 @@ The following instructions are for using this config on a new machine.  Before p
 ```shell
 git clone git@github.com:ndrein/dotfiles.git # Clone the repo
 cp -r dotfiles/* dotfiles/.* $HOME # Copy all the files into $HOME - WARNING: this will overwrite your home config.
+rm -rf dotfiles # Once we copy out the files, we don't the original repo anymore
 ```
 *  Get the submodule dependencies.
 ```shell
