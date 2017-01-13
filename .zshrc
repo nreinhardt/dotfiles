@@ -84,4 +84,4 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source ~/startup-scripts/startup-yoga.sh
+source ~/startup-scripts/custom-startup.sh
