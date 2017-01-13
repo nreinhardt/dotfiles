@@ -21,6 +21,6 @@ These startup scripts are to be run after third-party configuration is run (eg. 
 Example
 -------
 
-Host: `linux.student.cs.uwaterloo.ca`
+Host: `Yoga`
 
-`.bash_profile` -> `.bashrc` (includes boiler-plate code) -> `startup/startup-waterloo-linux.sh` -> (`general.sh` + `yoga.sh`)
+`.zshrc` (includes boiler-plater oh-my-zsh stuff) -> `startup/startup-yoga.sh` -> (`general.sh` + `yoga.sh`)
