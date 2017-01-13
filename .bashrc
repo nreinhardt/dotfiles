@@ -99,6 +99,7 @@ fi
 #fi
 
 
-# Run startup-scripts
-#source ~/startup-scripts/startup-yoga.sh
-zsh
+# Launch zsh
+if [ -t 1 ]; then
+    exec zsh
+fi
