@@ -21,7 +21,7 @@ function watssh {
 ###############################################################################
 
 if [ "$PWD" = "$HOME" ]; then
-        cd /mnt/c/Users/ndrei/
+#        cd /mnt/c/Users/ndrei/
 fi
 
 
