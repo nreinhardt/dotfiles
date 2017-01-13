@@ -12,6 +12,10 @@ git clone git@github.com:ndrein/dotfiles.git # Clone the repo
 cp -r dotfiles/* dotfiles/.* $HOME # Copy all the files into $HOME - WARNING: this will overwrite your home config.
 rm -rf dotfiles # Once we copy out the files, we don't the original repo anymore
 ```
+* Make your own branch for this machine.
+```shell
+cd $HOME && git checkout -b <MACHINE_BRANCH_NAME>
+```
 *  Get the submodule dependencies.
 ```shell
 cd $HOME && git submodule init && git submodule update
@@ -20,7 +24,7 @@ cd $HOME && git submodule init && git submodule update
 ```vim
 :PluginInstall
 ```
-*  To create custom scripts for your machine, make a `startup-*` script in `startup-scripts`.  You can put aliases and other custom configuration there.  Make sure to `source` your `startup-scripts/startup-*` script in your shell `rc` file.
+*  To create custom scripts for your machine, customize the startup script `startup-scripts`.  You can put aliases and other custom configuration there. Every branch/machine should have its own version of the startup script.  See the README.md there for more info. 
 
 
 ## Branches
@@ -28,8 +32,3 @@ cd $HOME && git submodule init && git submodule update
 The master branch contains the configuration for my main computer.  My best configuration goes here.
 
 All other branches should be machine-specific (eg. `waterloo-linux`).
-
-
-## startup-scripts
-
-Contains my custom startup scripts, such as `alias` information and shell functions.  See the README.md there for more information.
