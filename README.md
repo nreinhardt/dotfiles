@@ -4,7 +4,7 @@ Hi, this is the home directory of my files.  It's also the repository for my dot
 
 ## Installation
 
-The following instructions are for using this config on a new machine.  Before proceeding, you should backup your config in ~ (eg. .bashrc, .vimrc, etc.), as the following instructions will overwrite your current config.
+The following instructions are for using this config on a new machine.  Before proceeding, you should backup your config in $HOME (eg. .bashrc, .vimrc, etc.), as the following instructions will overwrite your current config.
 
 *  Get the config
 ```shell
