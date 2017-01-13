@@ -1,9 +1,11 @@
 # startup-scripts
-My personal bash startup scripts
+My personal startup scripts
 
 
 Concept
 -------
+
+These startup scripts are to be run after third-party configuration is run (eg. oh-my-zsh, .bashrc, etc.).  They provide my custom tweaks on my environment.
 
 * `startup-*.sh`
   * Eg. `startup-yoga.sh`, `startup-waterloo-linux.sh`
