@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+"""
+Print current directory in Windows style format
+
+Assumes we are under /mnt/c
+"""
+
+from subprocess import check_output
+from re import sub
+
+
+linux_path = check_output(['pwd']).decode('utf-8')
+if '/mnt/c' in linux_path:
+    print(linux_path.replace('/mnt/c', 'C:').replace('/', '\\'))
+else:
+    raise Exception('Invalid location:\n{}'.format(linux_path))
