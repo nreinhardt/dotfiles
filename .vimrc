@@ -38,3 +38,5 @@ set tabstop=4
 set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
+" Automatically write when running :next, etc.
+set autowrite
