@@ -36,7 +36,7 @@ export LESS="-R"
 # GIT
 ###############################################################################
 
-alias push='git add -A; git commit -m "AUTO: commit all files"; git push'
+alias push='git add -A :/; git commit -m "AUTO: commit all files"; git push'
 
 
 ###############################################################################
