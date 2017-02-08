@@ -11,6 +11,6 @@ from re import sub
 
 linux_path = check_output(['pwd']).decode('utf-8')
 if '/mnt/c' in linux_path:
-    print(linux_path.replace('/mnt/c', 'C:').replace('/', '\\'))
+    print(linux_path.replace('/mnt/c', 'C:').replace('/', '\\').strip())
 else:
     raise Exception('Invalid location:\n{}'.format(linux_path))
