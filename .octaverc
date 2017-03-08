@@ -4,3 +4,4 @@
 
 pkg load splines
 pkg load odepkg
+pkg load image
