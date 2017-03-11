@@ -22,6 +22,8 @@ Plugin 'VundleVim/Vundle.vim'
     let g:auto_save = 1
     " Silence AutoSave display
     let g:auto_save_silent = 1
+    " Save whenever text is changed, or we leave insert mode
+    let g:auto_save_events = ["InsertLeave", "TextChanged", "TextChangedI"]
 
 call vundle#end()            " required
 filetype plugin indent on    " required
