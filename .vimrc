@@ -42,3 +42,5 @@ set shiftwidth=4
 set expandtab
 " Automatically write when running :next, etc.
 set autowrite
+" Delete inserted 4 spaces with one keystroke
+set softtabstop=4
