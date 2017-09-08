@@ -14,3 +14,10 @@ export waterloo="ndreinha@linux.student.cs.uwaterloo.ca"
 function watssh {   
     ssh -X $waterloo
 }                   
+
+
+###############################################################################
+# SYS/161
+###############################################################################
+
+export PATH=$HOME/sys161/bin:$HOME/sys161/tools/bin:$PATH
