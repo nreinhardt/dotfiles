@@ -9,7 +9,7 @@ export DISPLAY=0:0
 # WATERLOO
 ###############################################################################
 
-export waterloo="ndreinha@linux.student.cs.uwaterloo.ca"
+export waterloo="ndreinha@ubuntu1604-002.student.cs.uwaterloo.ca"
 
 function watssh {   
     ssh -X $waterloo
