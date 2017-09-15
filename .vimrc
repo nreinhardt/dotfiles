@@ -44,3 +44,5 @@ set expandtab
 set autowrite
 " Delete inserted 4 spaces with one keystroke
 set softtabstop=4
+" User smartcase search
+set smartcase
