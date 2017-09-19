@@ -25,8 +25,7 @@ export OS161TOP=$HOME/cs350-os161
                                                                                               
 function run-kernel() {                                                                       
     $HOME/cs350-os161/os161-1.99/build.sh 1>/dev/null                                        
-    cd $HOME/cs350-os161/root                                                                
-    sys161 kernel                                                                             
+    sys161 -c /root/cs350-os161/root/sys161.conf $HOME/cs350-os161/root/kernel
 }                                                                                             
 
 
