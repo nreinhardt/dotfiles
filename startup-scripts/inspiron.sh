@@ -28,7 +28,7 @@ function kbuild() {
 }
 
 function krun() {
-    sys161 -c /root/cs350-os161/root/sys161.conf $HOME/cs350-os161/root/kernel $@
+    sys161 -c $HOME/cs350-os161/root/sys161.conf $HOME/cs350-os161/root/kernel $@
 }                                                                                             
 
 
