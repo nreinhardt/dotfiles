@@ -23,9 +23,12 @@ function watssh {
 export PATH=$HOME/sys161/bin:$HOME/sys161/tools/bin:$PATH
 export OS161TOP=$HOME/cs350-os161
                                                                                               
-function run-kernel() {                                                                       
-    $HOME/cs350-os161/os161-1.99/build.sh 1>/dev/null                                        
-    sys161 -c /root/cs350-os161/root/sys161.conf $HOME/cs350-os161/root/kernel
+function kbuild() {
+    $HOME/cs350-os161/os161-1.99/build.sh
+}
+
+function krun() {
+    sys161 -c /root/cs350-os161/root/sys161.conf $HOME/cs350-os161/root/kernel $@
 }                                                                                             
 
 
