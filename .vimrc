@@ -13,7 +13,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 
     """""""""""""""""""""""""""""""""""""""""""""""""""""
-    " AutoSave
     " https://github.com/907th/vim-auto-save
     """""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -24,6 +23,14 @@ Plugin 'VundleVim/Vundle.vim'
     let g:auto_save_silent = 1
     " Save whenever text is changed, or we leave insert mode
     let g:auto_save_events = ["InsertLeave", "TextChanged", "TextChangedI"]
+
+    """""""""""""""""""""""""""""""""""""""""""""""""""""
+    " vim-gitgutter
+    " https://github.com/airblade/vim-gitgutter
+    """""""""""""""""""""""""""""""""""""""""""""""""""""
+
+    Plugin 'airblade/vim-gitgutter'
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
