@@ -25,6 +25,13 @@ Plugin 'VundleVim/Vundle.vim'
     let g:auto_save_events = ["InsertLeave", "TextChanged", "TextChangedI"]
 
     """""""""""""""""""""""""""""""""""""""""""""""""""""
+    " YouCompleteMe
+    " https://github.com/Valloric/YouCompleteMe
+    """""""""""""""""""""""""""""""""""""""""""""""""""""
+
+    Plugin 'Valloric/YouCompleteMe'
+
+    """""""""""""""""""""""""""""""""""""""""""""""""""""
     " vim-gitgutter
     " https://github.com/airblade/vim-gitgutter
     """""""""""""""""""""""""""""""""""""""""""""""""""""
