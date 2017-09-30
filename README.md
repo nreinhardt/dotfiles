@@ -29,6 +29,4 @@ cd $HOME && git submodule init && git submodule update
 
 ## Branches
 
-The master branch contains the configuration for my main computer.  My best configuration goes here.
-
-All other branches should be machine-specific (eg. `waterloo-linux`).
+Every machine should have it's own branch (eg. `waterloo-linux` or `inspiron`).
