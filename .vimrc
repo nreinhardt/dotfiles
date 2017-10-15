@@ -24,19 +24,27 @@ Plugin 'VundleVim/Vundle.vim'
     " Save whenever text is changed, or we leave insert mode
     let g:auto_save_events = ["InsertLeave", "TextChanged", "TextChangedI"]
 
+
     """""""""""""""""""""""""""""""""""""""""""""""""""""
-    " YouCompleteMe
     " https://github.com/Valloric/YouCompleteMe
     """""""""""""""""""""""""""""""""""""""""""""""""""""
 
     Plugin 'Valloric/YouCompleteMe'
 
+
     """""""""""""""""""""""""""""""""""""""""""""""""""""
-    " vim-gitgutter
     " https://github.com/airblade/vim-gitgutter
     """""""""""""""""""""""""""""""""""""""""""""""""""""
 
     Plugin 'airblade/vim-gitgutter'
+
+
+    """""""""""""""""""""""""""""""""""""""""""""""""""""
+    " https://github.com/ludovicchabant/vim-gutentags
+    """""""""""""""""""""""""""""""""""""""""""""""""""""
+
+    " Automatically keep track of and rebuild tags file for ctags
+    Plugin 'ludovicchabant/vim-gutentags'
 
 
 call vundle#end()            " required
@@ -62,4 +70,3 @@ set softtabstop=4
 set smartcase
 " Tell ctags to look for tags upward all the way to the root (/)
 set tags=tags;/
-
