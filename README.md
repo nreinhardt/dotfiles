@@ -2,18 +2,21 @@
 
 Hi, this is the home directory of my files.  It's also the repository for my dotfiles (configuration etc.).
 
+
 ## Installation
 
 The following instructions are for using this config on a new machine.
 
-### Preqrequisites
 
-You should have the following installed before proceeding:
+### Prerequisites
+
+Before proceeding, you should backup your config in $HOME (eg. .bashrc, .vimrc, etc.), as the following instructions will overwrite your current config.
+
+You should also have the following packages installed:
 ```shell
 sudo apt-get install exuberant-ctags
 ```
 
-Before proceeding, you should backup your config in $HOME (eg. .bashrc, .vimrc, etc.), as the following instructions will overwrite your current config.
 
 *  Get the config
 ```shell
