@@ -10,14 +10,11 @@ The following instructions are for using this config on a new machine.
 
 ### Prerequisites
 
-Before proceeding, you should backup your config in $HOME (eg. .bashrc, .vimrc, etc.), as the following instructions will overwrite your current config.
-
-You should also have the following packages installed:
+* Before proceeding, you should backup your config in $HOME (eg. .bashrc, .vimrc, etc.), as the following instructions will overwrite your current config. 
+* You should also have the following packages installed:
 ```shell
 sudo apt-get install exuberant-ctags
 ```
-
-
 *  Get the config
 ```shell
 git clone git@github.com:ndrein/dotfiles.git # Clone the repo
