@@ -27,6 +27,10 @@ function kbuild() {
     $HOME/cs350-os161/os161-1.99/build.sh
 }
 
+function mybuild() {
+    /root/cs350-os161/os161-1.99/my-testbin-build.sh
+}
+
 function krun() {
     sys161 -c $HOME/cs350-os161/root/sys161.conf $HOME/cs350-os161/root/kernel $@
 }                                                                                             
