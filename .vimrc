@@ -29,7 +29,7 @@ Plugin 'VundleVim/Vundle.vim'
     " https://github.com/Valloric/YouCompleteMe
     """""""""""""""""""""""""""""""""""""""""""""""""""""
 
-    Plugin 'Valloric/YouCompleteMe'
+    "Plugin 'Valloric/YouCompleteMe'
 
 
     """""""""""""""""""""""""""""""""""""""""""""""""""""
