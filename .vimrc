@@ -39,14 +39,6 @@ Plugin 'VundleVim/Vundle.vim'
     Plugin 'airblade/vim-gitgutter'
 
 
-    """""""""""""""""""""""""""""""""""""""""""""""""""""
-    " https://github.com/ludovicchabant/vim-gutentags
-    """""""""""""""""""""""""""""""""""""""""""""""""""""
-
-    " Automatically keep track of and rebuild tags file for ctags
-    Plugin 'ludovicchabant/vim-gutentags'
-
-
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -68,5 +60,3 @@ set autowrite
 set softtabstop=4
 " User smartcase search
 set smartcase
-" Tell ctags to look for tags upward all the way to the root (/)
-set tags=tags;/
