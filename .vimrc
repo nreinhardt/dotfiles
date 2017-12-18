@@ -26,13 +26,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 
     """""""""""""""""""""""""""""""""""""""""""""""""""""
-    " https://github.com/Valloric/YouCompleteMe
-    """""""""""""""""""""""""""""""""""""""""""""""""""""
-
-    "Plugin 'Valloric/YouCompleteMe'
-
-
-    """""""""""""""""""""""""""""""""""""""""""""""""""""
     " https://github.com/airblade/vim-gitgutter
     """""""""""""""""""""""""""""""""""""""""""""""""""""
 
