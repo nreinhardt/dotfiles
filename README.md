@@ -1,15 +1,22 @@
 # dotfiles
 
-Hi, this is the home directory of my files.  It's also the repository for my dotfiles (configuration etc.).
+Hi, this is the home directory of my files.  It's also the repository for my configuration.
+
+
+## How It Works
+
+Every machine has its own configuration, and thus has its own branch in this git repository (eg. `waterloo-linux` or `inspiron`).
 
 
 ## Installation
 
-The following instructions are for using this config on a new machine.
+The following instructions are for installing the configuration for this branch.
+
 
 ### Dependencies
 
 Before installing, you should update/install the following dependencies for this branch:
+
 
 #### ls-colors
 
@@ -57,9 +64,4 @@ cd $HOME && git submodule init && git submodule update
 ```vim
 :PluginInstall
 ```
-*  To create custom scripts for your machine, customize the startup script `startup-scripts`.  You can put aliases and other custom configuration there. Every branch/machine should have its own version of the startup script.  See the README.md there for more info. 
-
-
-## Branches
-
-Every machine should have it's own branch (eg. `waterloo-linux` or `inspiron`).
+*  To create custom scripts for your machine, customize the startup script `startup-scripts`.  You can put aliases and other custom configuration there. Every branch/machine should have its own version of the startup script.  See the README.md in `startup-scripts` for more information.
