@@ -40,7 +40,7 @@ If you don't have pip installed already, [install it](https://pip.pypa.io/en/sta
 
 #### virtualenvwrapper
 
-Install [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/install.html)
+Install [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/install.html).
 
 
 ### Installing dotfiles
