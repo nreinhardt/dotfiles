@@ -13,7 +13,7 @@ Before installing, you should update/install the following dependencies for this
 
 #### ls-colors
 
-Install [ls-colors](https://github.com/ndrein/ls-colors)
+Install [ls-colors](https://github.com/ndrein/ls-colors).
 
 
 #### VIM
@@ -21,20 +21,19 @@ Install [ls-colors](https://github.com/ndrein/ls-colors)
 Update vim:
 
 ```shell
-sudo apt-get  update
+sudo apt-get update
 sudo apt-get install vim
 ```
 
 
 #### pip
 
-Install [pip](https://pip.pypa.io/en/stable/installing/)
+If you don't have pip installed already, [install it](https://pip.pypa.io/en/stable/installing/).
 
 
 #### virtualenvwrapper
 
 Install [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/install.html)
-
 
 
 ### Installing dotfiles
