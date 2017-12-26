@@ -43,6 +43,11 @@ If you don't have pip installed already, [install it](https://pip.pypa.io/en/sta
 Install [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/install.html).
 
 
+#### fasd
+
+Install [fasd](https://github.com/clvv/fasd/wiki/Installing-via-Package-Managers).
+
+
 ### Installing dotfiles
 
 * Before proceeding, you should backup your config in $HOME (eg. .bashrc, .vimrc, etc.), as the following instructions will overwrite your current config. 
