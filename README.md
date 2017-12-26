@@ -7,12 +7,39 @@ Hi, this is the home directory of my files.  It's also the repository for my dot
 
 The following instructions are for using this config on a new machine.
 
+### Dependencies
+
+Before installing, you should update/install the following dependencies for this branch:
+
+#### ls-colors
+
+Install [ls-colors](https://github.com/ndrein/ls-colors)
+
+
+#### VIM
+
+Update vim:
+
+```shell
+sudo apt-get  update
+sudo apt-get install vim
+```
+
+
+#### pip
+
+Install [pip](https://pip.pypa.io/en/stable/installing/)
+
+
+#### virtualenvwrapper
+
+Install [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/install.html)
+
+
+
+### Installing dotfiles
 
 * Before proceeding, you should backup your config in $HOME (eg. .bashrc, .vimrc, etc.), as the following instructions will overwrite your current config. 
-* You should also have the following packages installed:
-```shell
-sudo apt-get install exuberant-ctags
-```
 *  Get the config
 ```shell
 git clone git@github.com:ndrein/dotfiles.git # Clone the repo
