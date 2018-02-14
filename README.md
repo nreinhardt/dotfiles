@@ -18,11 +18,6 @@ The following instructions are for installing the configuration for this branch.
 Before installing, you should update/install the following dependencies for this branch:
 
 
-#### ls-colors
-
-Install [ls-colors](https://github.com/ndrein/ls-colors).
-
-
 #### VIM
 
 Update vim:
