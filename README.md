@@ -18,6 +18,15 @@ The following instructions are for installing the configuration for this branch.
 Before installing, you should update/install the following dependencies for this branch:
 
 
+#### zsh
+
+Install zsh if you don't have it already:
+
+```shell
+sudo apt install zsh
+```
+
+
 #### VIM
 
 Update vim:
