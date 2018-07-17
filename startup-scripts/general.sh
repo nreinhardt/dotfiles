@@ -45,4 +45,3 @@ alias v="f -e $EDITOR"
 ###############################################################################
 
 alias grep="egrep"
-alias rsync="rsync --progress --human-readable --recursive"
