@@ -41,12 +41,18 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ### Installing dotfiles
 
-* Before proceeding, you should backup your config in $HOME (e.g. .vimrc), as the following instructions will overwrite your current config. 
+* Before proceeding, you should backup your config in $HOME (e.g. .bashrc, .vimrc), as the following instructions will overwrite your current config.  Recommended (but not necessarily exhaustive) backup procedure is as follows:
+```shell
+cp ~/.profile ~/.profile.bak
+cp ~/.bash_profile ~/.bash_profile.bak
+cp ~/.vimrc ~/.vimrc.bak
+cp ~/.zshrc ~/.zshrc.bak
+```
 *  Get the config
 ```shell
 git clone git@github.com:ndrein/dotfiles.git $HOME/dotfiles# Clone the repo
 cp -r $HOME/dotfiles/. $HOME # Copy all the files into $HOME - WARNING: this will overwrite your home config.
-rm -rf dotfiles # Once we copy out the files, we don't the original repo anymore
+rm -rf $HOME/dotfiles # Once we copy out the files, we don't the original repo anymore
 ```
 
 
