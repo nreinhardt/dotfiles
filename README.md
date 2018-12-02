@@ -15,6 +15,11 @@ Install Linuxbrew as a **non-root** user:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 ```
 
+Modify shell environment to use Linuxbrew:
+```
+eval $($HOME/.linuxbrew/bin/brew shellenv)
+```
+
 
 ### zsh
 
