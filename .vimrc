@@ -1,6 +1,3 @@
-" Perform filetype specific actions, including plugins and indentations
-filetype plugin indent on
-
 " Show existing tab with 4 spaces width
 set tabstop=4
 
