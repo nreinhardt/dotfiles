@@ -58,7 +58,7 @@ alias grep="egrep"
 # Run instance specific configuration
 ###############################################################################
 
-instance_specific="${0:a:h}"/instance_specific.sh
+instance_specific="${0:a:h}"/instance-specific.sh
 
 if [[ -r ${instance_specific} ]]; then
     source ${instance_specific}
