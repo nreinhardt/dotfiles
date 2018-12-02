@@ -46,12 +46,13 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ### Installing dotfiles
 
-* Before proceeding, you should backup your config in $HOME (e.g. .bashrc, .vimrc), as the following instructions will overwrite your current config.  Recommended (but not necessarily exhaustive) backup procedure is as follows:
+* Before proceeding, you should backup your config in $HOME (e.g. .bashrc, .vimrc), as the following instructions will overwrite your current config.  Recommended (but not necessarily exhaustive) backup procedure follows.  Note that error:
 ```shell
-cp ~/.profile ~/.profile.bak
-cp ~/.bash_profile ~/.bash_profile.bak
-cp ~/.vimrc ~/.vimrc.bak
-cp ~/.zshrc ~/.zshrc.bak
+# Ignore error messages
+cp ~/.profile ~/.profile.bak 2>/dev/null
+cp ~/.bash_profile ~/.bash_profile.bak 2>/dev/null
+cp ~/.vimrc ~/.vimrc.bak 2>/dev/null
+cp ~/.zshrc ~/.zshrc.bak 2>/dev/null
 ```
 *  Get the config
 ```shell
