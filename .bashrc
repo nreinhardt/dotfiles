@@ -1,1 +1,1 @@
-exec zsh
+exec ~/.linuxbrew/bin/zsh
