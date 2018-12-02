@@ -56,7 +56,7 @@ cp ~/.zshrc ~/.zshrc.bak 2>/dev/null
 ```
 *  Get the config
 ```shell
-git clone git@github.com:ndrein/dotfiles.git $HOME/dotfiles# Clone the repo
+git clone git@github.com:ndrein/dotfiles.git $HOME/dotfiles # Clone the repo
 cp -r $HOME/dotfiles/. $HOME # Copy all the files into $HOME - WARNING: this will overwrite your home config.
 rm -rf $HOME/dotfiles # Once we copy out the files, we don't the original repo anymore
 ```
