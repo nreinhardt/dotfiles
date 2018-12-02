@@ -52,14 +52,10 @@ rm -rf dotfiles # Once we copy out the files, we don't the original repo anymore
 
 ## Instance-specific configuration
 
-If you need to convert 
-*  To create custom scripts for your machine, customize the startup script `startup-scripts`.  You can put aliases and other custom configuration there. Every branch/machine should have its own version of the startup script.  See the README.md in `startup-scripts` for more information.
+See `startup-scripts` for instance-specific configuration.
 
 
-### Installing zsh plugins
-
-
-#### zsh-syntax-highlighting
+### zsh-syntax-highlighting
 
 To run, the `zsh-syntax-highlighting` plugin, you must first clone it into `oh-my-zsh`'s plugins directory:
 ```
