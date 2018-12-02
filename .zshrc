@@ -1,3 +1,6 @@
+source ~/startup-scripts/pre-rc.sh
+
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -90,4 +93,5 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source ~/startup-scripts/general.sh
+
+source ~/startup-scripts/post-rc.sh
