@@ -24,24 +24,22 @@ eval $($HOME/.linuxbrew/bin/brew shellenv)
 ### zsh
 
 ```
-~/.linuxbrew/bin/brew install zsh
+brew install zsh
 ```
 
 
 ### fasd
 
 ```
-~/.linuxbrew/bin/brew install fasd
+brew install fasd
 ```
 
 
-### oh-my-zsh
+### antigen
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+brew install antigen
 ```
-
-
 
 
 ### Installing dotfiles
@@ -65,23 +63,3 @@ rm -rf $HOME/dotfiles # Once we copy out the files, we don't the original repo a
 ## Instance-specific configuration
 
 See `startup-scripts` for instance-specific configuration.
-
-
-## Plugins
-
-
-Custom plugins require additional installation.
-
-
-### zsh-syntax-highlighting
-
-```
- git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-```
-
-
-### zsh-autosuggestions
-
-```
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-```
