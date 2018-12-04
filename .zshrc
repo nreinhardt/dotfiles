@@ -60,6 +60,9 @@ plugins=(
     zsh-syntax-highlighting
     docker
     pip
+    sudo
+    zsh-autosuggestions
+    colored-man-pages
 )
 
 source $ZSH/oh-my-zsh.sh
