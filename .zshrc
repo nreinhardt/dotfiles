@@ -9,7 +9,7 @@ source ~/startup-scripts/pre-rc.sh
 # antigen
 #################################################################
 
-source /home/ndrein/.linuxbrew/share/antigen/antigen.zsh
+source ~/.linuxbrew/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 
