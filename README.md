@@ -67,9 +67,21 @@ rm -rf $HOME/dotfiles # Once we copy out the files, we don't the original repo a
 See `startup-scripts` for instance-specific configuration.
 
 
+## Plugins
+
+
+Custom plugins require additional installation.
+
+
 ### zsh-syntax-highlighting
 
-To run, the `zsh-syntax-highlighting` plugin, you must first clone it into `oh-my-zsh`'s plugins directory:
 ```
  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+
+### zsh-autosuggestions
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
