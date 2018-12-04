@@ -1,1 +1,1 @@
-exec ~/.linuxbrew/bin/zsh
+source ~/.profile
