@@ -7,6 +7,8 @@ Hi, this is the home directory of my files.  It's also the repository for my con
 
 The following instructions are for installing the configuration for this branch.
 
+Note: These instructions have been tested on systems running Ubuntu.  If you are using MacOS, you may have difficulties since MacOS uses Homebrew instead of Linuxbrew.
+
 
 ### Linuxbrew
 
