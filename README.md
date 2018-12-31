@@ -5,15 +5,13 @@ Hi, this is the home directory of my files.  It's also the repository for my con
 
 ## Installation
 
-The following instructions are for installing the configuration for this branch.
-
-
 ### Linuxbrew
 
-Install Linuxbrew as a **non-root** user:
+Install Linuxbrew as a **non-root** user.  Do **not** supply any credentials to Linuxbrew.  If asked for a password, press <Enter>.
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 ```
+
 
 Modify shell environment to use Linuxbrew:
 ```
