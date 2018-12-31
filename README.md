@@ -43,6 +43,11 @@ rm -rf $HOME/dotfiles
 ```
 
 
+### Change shell
+
+Change your default shell to zsh with `chsh -s $PATH_TO_ZSH` or `exec` zsh from your current shell's configuration scripts.
+
+
 ## Instance-specific configuration
 
 Include all instance-specific configuration in the optional file `~/.instance_specific.sh`.
