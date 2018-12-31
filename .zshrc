@@ -1,15 +1,15 @@
 #################################################################
-# pre-rc
+# EDTIOR
 #################################################################
 
-source ~/startup-scripts/pre-rc.sh
+export EDITOR=vim
 
 
 #################################################################
 # antigen
 #################################################################
 
-source ~/.linuxbrew/share/antigen/antigen.zsh
+source ~/antigen.zsh
 
 antigen use oh-my-zsh
 
@@ -28,8 +28,38 @@ antigen theme robbyrussell
 antigen apply
 
 
-#################################################################
-# post-rc
-#################################################################
+###############################################################################
+# Custom functions
+###############################################################################
 
-source ~/startup-scripts/post-rc.sh
+# wincopy <file1> <file2>
+function wincopy {
+    COPY_TMP=`for f in $@; do readlink -f $f; done`
+}
+
+# Copy all files from wincopy to .
+function winpaste {
+   rsync --recursive --human-readable --progress $COPY_TMP .
+}
+
+function path {
+    readlink -f $1
+}
+
+
+###############################################################################
+# git
+###############################################################################
+
+alias commit='git add -A :/; git commit -m "AUTO: commit all files"'
+
+
+###############################################################################
+# Run instance specific configuration
+###############################################################################
+
+instance_specific="$HOME/.instance_specific.sh"
+
+if [[ -r ${instance_specific} ]]; then
+    source ${instance_specific}
+fi
