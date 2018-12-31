@@ -43,7 +43,7 @@ brew install antigen
 
 ### Installing dotfiles
 
-* Before proceeding, you should backup your config in $HOME (e.g. .bashrc, .vimrc), as the following instructions will overwrite your current config.  Example (but not necessarily exhaustive) backup procedure follows.  Note that error:
+* Before proceeding, you should backup your config in $HOME (e.g. .bashrc, .vimrc), as the following instructions will overwrite your current config.  Example (but not necessarily exhaustive) backup procedure follows:
 ```shell
 # Ignore error messages
 cp ~/.profile ~/.profile.bak 2>/dev/null
