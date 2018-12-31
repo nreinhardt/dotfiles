@@ -10,12 +10,10 @@ Note: These instructions have been tested on systems running Ubuntu.  If you are
 
 ### Linuxbrew
 
-Install Linuxbrew as a **non-root** user.  Do **not** supply any credentials to Linuxbrew.  If asked for a password, press <Enter>.
+Install Linuxbrew as a **non-root** user.  Do **not** supply any credentials to Linuxbrew.  If asked for a password, press `<Enter>`.
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 ```
-
-
 Modify shell environment to use Linuxbrew:
 ```
 eval $($HOME/.linuxbrew/bin/brew shellenv)
