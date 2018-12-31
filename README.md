@@ -20,14 +20,6 @@ eval $($HOME/.linuxbrew/bin/brew shellenv)
 ```
 
 
-### gcc
-
-
-```
-brew install gcc
-```
-
-
 ### zsh
 
 ```
