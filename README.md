@@ -5,6 +5,9 @@ Hi, this is the home directory of my files.  It's also the repository for my con
 
 ## Installation
 
+Note: These instructions have been tested on systems running Ubuntu.  If you are using MacOS, you may have difficulties since MacOS uses Homebrew instead of Linuxbrew.
+
+
 ### Linuxbrew
 
 Install Linuxbrew as a **non-root** user.  Do **not** supply any credentials to Linuxbrew.  If asked for a password, press <Enter>.
