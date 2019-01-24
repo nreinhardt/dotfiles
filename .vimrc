@@ -2,6 +2,11 @@
 " VUNDLE
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Clone Vundle if necessary
+if !isdirectory(expand("~/.vim/bundle/Vundle.vim"))
+    !git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+endif
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
