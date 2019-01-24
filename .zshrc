@@ -58,7 +58,7 @@ alias commit='git add -A :/; git commit -m "AUTO: commit all files"'
 # Vundle
 ###############################################################################
 
-vim +PluginInstall +PluginClean +qall!
+vim +PluginInstall +PluginClean! +qall!
 
 
 ###############################################################################
