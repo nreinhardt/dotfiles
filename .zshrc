@@ -23,7 +23,7 @@ antigen bundle sudo
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle colored-man-pages
 
-antigen theme robbyrussell
+antigen theme candy
 
 antigen apply
 
@@ -52,6 +52,13 @@ function path {
 ###############################################################################
 
 alias commit='git add -A :/; git commit -m "AUTO: commit all files"'
+
+
+###############################################################################
+# Vundle
+###############################################################################
+
+
 
 
 ###############################################################################
