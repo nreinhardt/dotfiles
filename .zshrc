@@ -23,7 +23,7 @@ antigen bundle sudo
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle colored-man-pages
 
-antigen theme candy
+antigen theme ys
 
 antigen apply
 
