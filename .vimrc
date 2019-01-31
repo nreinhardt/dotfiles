@@ -26,6 +26,9 @@ call vundle#begin()
 
     Plugin 'airblade/vim-gitgutter'
 
+    " Comment/uncomment with gcc / gc (with selection)
+    Plugin 'tomtom/tcomment_vim'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -47,3 +50,6 @@ set expandtab
 
 " Delete inserted 4 spaces with one keystroke
 set softtabstop=4
+
+" Don't create swapfiles
+set noswapfile
