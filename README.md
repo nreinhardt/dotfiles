@@ -13,7 +13,6 @@ Note: [Linuxbrew](http://linuxbrew.sh/) may be useful for installing dependencie
 
 Install the following dependencies:
 * zsh
-* fasd
 
 
 ### antigen

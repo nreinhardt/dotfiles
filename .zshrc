@@ -15,6 +15,7 @@ antigen use oh-my-zsh
 
 # Plugins
 antigen bundle git
+antigen bundle clvv/fasd
 antigen bundle fasd
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle docker
