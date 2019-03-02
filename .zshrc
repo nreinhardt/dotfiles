@@ -48,7 +48,7 @@ function path {
 
 
 ###############################################################################
-# git
+# Aliases
 ###############################################################################
 
 alias commit='git add -A :/; git commit -m "AUTO: commit all files"'
@@ -65,6 +65,7 @@ alias commit='git add -A :/; git commit -m "AUTO: commit all files"'
 
 ###############################################################################
 # Run instance specific configuration
+# This should be the last section of this file
 ###############################################################################
 
 instance_specific="$HOME/.instance_specific.sh"
