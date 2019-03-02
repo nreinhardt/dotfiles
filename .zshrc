@@ -59,8 +59,8 @@ alias commit='git add -A :/; git commit -m "AUTO: commit all files"'
 ###############################################################################
 
 # Automatically install and remove plugins
-nohup vim +PluginInstall +PluginClean! +qall! </dev/null >/dev/null 2>&1 &
-disown
+#nohup vim +PluginInstall +PluginClean! +qall! </dev/null >/dev/null 2>&1 &
+#disown
 
 
 ###############################################################################
