@@ -55,15 +55,6 @@ alias commit='git add -A :/; git commit -m "AUTO: commit all files"'
 
 
 ###############################################################################
-# Vundle
-###############################################################################
-
-# Automatically install and remove plugins
-#nohup vim +PluginInstall +PluginClean! +qall! </dev/null >/dev/null 2>&1 &
-#disown
-
-
-###############################################################################
 # Run instance specific configuration
 # This should be the last section of this file
 ###############################################################################
