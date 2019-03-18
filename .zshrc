@@ -24,7 +24,9 @@ antigen bundle sudo
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle colored-man-pages
 
-antigen theme terminalparty
+#antigen theme terminalparty
+#antigen theme ys
+antigen theme tjkirch
 
 antigen apply
 
