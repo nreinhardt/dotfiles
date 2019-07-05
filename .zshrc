@@ -44,7 +44,7 @@ antigen apply
 
 # wincopy <file1> <file2>
 function wincopy {
-    COPY_TMP=`for f in $@; do readlink -f $f; done`
+    COPY_TMP=`for f in $@; do path $f; done`
 }
 
 # Copy all files from wincopy to .
@@ -53,7 +53,7 @@ function winpaste {
 }
 
 function path {
-    readlink -f $1
+    echo $(cd $(dirname "$1") && pwd -P)/$(basename "$1")
 }
 
 
