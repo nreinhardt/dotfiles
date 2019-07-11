@@ -6,7 +6,7 @@
 export EDITOR=vim
 
 # Remove old vim plugins and install/update the others
-echo "Updating plugins in the background."
+echo "Updating vim plugins in the background."
 nohup vim -c "PluginClean" -c "PluginInstall!" </dev/null >/dev/null 2>&1 &
 disown
 
