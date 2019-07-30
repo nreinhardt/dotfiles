@@ -52,10 +52,6 @@ function winpaste {
    rsync --recursive --human-readable --progress $COPY_TMP .
 }
 
-function path {
-    echo $(cd $(dirname "$1") && pwd -P)/$(basename "$1")
-}
-
 
 ###############################################################################
 # Aliases
