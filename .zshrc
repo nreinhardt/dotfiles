@@ -42,16 +42,6 @@ antigen apply
 # Custom functions
 ###############################################################################
 
-# # wincopy <file1> <file2>
-# function wincopy {
-#     COPY_TMP=`for f in $@; do path $f; done`
-# }
-# 
-# # Copy all files from wincopy to .
-# function winpaste {
-#    rsync --recursive --human-readable --progress $COPY_TMP .
-# }
-
 
 ###############################################################################
 # Aliases
