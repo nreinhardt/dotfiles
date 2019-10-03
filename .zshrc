@@ -47,7 +47,7 @@ antigen apply
 # Aliases
 ###############################################################################
 
-alias commit='git add -A :/; git commit -m "AUTO: commit all files"'
+alias commit='git commit -m "AUTO: commit all files"'
 
 
 ###############################################################################
