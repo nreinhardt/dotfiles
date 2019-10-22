@@ -53,3 +53,6 @@ set softtabstop=4
 
 " Don't create swapfiles
 set noswapfile
+
+" Turn syntax highlighting on
+syntax on
