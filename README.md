@@ -10,9 +10,7 @@ Hi, this is the home directory of my files.  It's also the repository for my con
 
 Note: [Linuxbrew](http://linuxbrew.sh/) may be useful for installing dependencies when root is not available.
 
-
-Install the following dependencies:
-* zsh
+* Install `zsh`
 
 
 ### antigen
