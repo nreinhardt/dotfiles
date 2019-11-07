@@ -30,6 +30,7 @@ antigen bundle sudo
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle colored-man-pages
 antigen bundle mvn
+antigen bundle pyenv
 
 #antigen theme terminalparty
 #antigen theme ys
