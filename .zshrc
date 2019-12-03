@@ -31,6 +31,8 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle colored-man-pages
 antigen bundle mvn
 antigen bundle pyenv
+# Completions for commands that are not recognized by zsh yet
+antigen bundle zsh-users/zsh-completions
 
 #antigen theme terminalparty
 #antigen theme ys
