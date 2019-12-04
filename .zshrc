@@ -26,7 +26,6 @@ antigen bundle fasd
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle docker
 antigen bundle pip
-antigen bundle sudo
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle colored-man-pages
 antigen bundle mvn
