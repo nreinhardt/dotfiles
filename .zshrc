@@ -33,9 +33,19 @@ antigen bundle pyenv
 # Completions for commands that are not recognized by zsh yet
 antigen bundle zsh-users/zsh-completions
 
-antigen theme terminalparty
-#antigen theme ys
-#antigen theme tjkirch
+    #################################################################
+    # THEME
+    #################################################################
+    
+    #antigen theme terminalparty
+    #antigen theme ys
+    # I like this one
+    #antigen theme tjkirch
+
+    # Pure theme - shouldn't use `antigen theme`
+    antigen bundle mafredri/zsh-async
+    antigen bundle sindresorhus/pure
+
 
 antigen apply
 
