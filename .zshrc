@@ -44,7 +44,8 @@ antigen bundle zsh-users/zsh-completions
 
     # Pure theme - shouldn't use `antigen theme`
     antigen bundle mafredri/zsh-async
-    antigen bundle sindresorhus/pure
+    # Use indestructible-pure branch to show git information always
+    antigen bundle sindresorhus/pure@indestructible-pure
 
 
 antigen apply
