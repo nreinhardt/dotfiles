@@ -62,6 +62,12 @@ antigen apply
 alias commit='git commit -m "AUTO: commit all files"'
 
 
+#################################################################
+# history
+#################################################################
+
+export HISTSIZE=100000
+
 ###############################################################################
 # Run instance specific configuration
 # This should be the last section of this file
