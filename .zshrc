@@ -32,8 +32,6 @@ antigen bundle mvn
 antigen bundle pyenv
 # Completions for commands that are not recognized by zsh yet
 antigen bundle zsh-users/zsh-completions
-# Displays Time: ... after long-running commands
-antigen bundle popstas/zsh-command-time
 
     #################################################################
     # THEME
@@ -42,11 +40,11 @@ antigen bundle popstas/zsh-command-time
     #antigen theme terminalparty
     #antigen theme ys
     # I like this one
-    antigen theme tjkirch
+    #antigen theme tjkirch
 
     # Pure theme - shouldn't use `antigen theme`
-    #antigen bundle mafredri/zsh-async
-    #antigen bundle sindresorhus/pure
+    antigen bundle mafredri/zsh-async
+    antigen bundle sindresorhus/pure
 
 
 antigen apply
