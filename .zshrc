@@ -23,13 +23,14 @@ antigen use oh-my-zsh
 antigen bundle git
 antigen bundle clvv/fasd
 antigen bundle fasd
-antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle docker
 antigen bundle pip
 antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle colored-man-pages
 antigen bundle mvn
 antigen bundle pyenv
+antigen bundle vi-mode
 # Completions for commands that are not recognized by zsh yet
 antigen bundle zsh-users/zsh-completions
 
