@@ -35,6 +35,9 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle vi-mode
 # Completions for commands that are not recognized by zsh yet
 antigen bundle zsh-users/zsh-completions
+antigen bundle Aloxaf/fzf-tab
+antigen bundle globalias
+
 
     #################################################################
     # THEME
