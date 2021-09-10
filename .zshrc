@@ -15,7 +15,9 @@ znap prompt sindresorhus/pure
 znap source marlonrichert/zsh-autocomplete
 znap source zsh-users/zsh-autosuggestions
 znap source zsh-users/zsh-syntax-highlighting
+
 znap source ohmyzsh/ohmyzsh plugins/git/git.plugin.zsh
+znap source ohmyzsh/ohmyzsh plugins/aliases/aliases.plugin.zsh
 
 
 #################################################################
