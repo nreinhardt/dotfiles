@@ -13,14 +13,6 @@ Note: [Linuxbrew](http://linuxbrew.sh/) may be useful for installing dependencie
 * Install `zsh`
 
 
-### antigen
-
-Antigen must be cloned into this location:
-```
-curl -L git.io/antigen > ~/antigen.zsh
-```
-
-
 ### Installing dotfiles
 
 * Before proceeding, you should backup your config in $HOME (e.g. .bashrc, .vimrc), as the following instructions will overwrite your current config.  Example (but not necessarily exhaustive) backup procedure follows:
