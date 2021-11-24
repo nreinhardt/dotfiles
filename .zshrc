@@ -22,6 +22,8 @@ znap source zsh-users/zsh-syntax-highlighting
 znap source ohmyzsh/ohmyzsh plugins/git/git.plugin.zsh
 znap source ohmyzsh/ohmyzsh plugins/aliases/aliases.plugin.zsh
 
+znap source rupa/z z.sh
+
 
 #################################################################
 # vim
