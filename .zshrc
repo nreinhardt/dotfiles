@@ -12,7 +12,7 @@ source ~/Git/zsh-snap/znap.zsh  # Start Znap
 znap prompt sindresorhus/pure
 
 # `znap source` automatically downloads and installs your plugins.
-#znap source marlonrichert/zsh-autocomplete
+znap source marlonrichert/zsh-autocomplete
 #zstyle ':autocomplete:*' min-delay 0.2  # float
 
 
