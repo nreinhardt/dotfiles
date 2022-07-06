@@ -13,7 +13,7 @@ znap prompt sindresorhus/pure
 
 # `znap source` automatically downloads and installs your plugins.
 znap source marlonrichert/zsh-autocomplete
-zstyle ':autocomplete:*' min-delay 0.2  # float
+zstyle ':autocomplete:*' min-delay 0.4  # float
 
 
 znap source zsh-users/zsh-autosuggestions
