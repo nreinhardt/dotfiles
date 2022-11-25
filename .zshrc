@@ -48,17 +48,6 @@ alias commit='git commit -m "AUTO: commit all files"'
 # Functions
 ###############################################################################
 
-function bat {
-  if type "bat"; then
-    bat $1;
-  elif type "batcat"; then
-    batcat $1
-  else
-    echo "Error: bat is not installed"
-    exit 1
-  fi
-}
-
 
 #################################################################
 # history
