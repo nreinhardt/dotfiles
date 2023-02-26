@@ -29,12 +29,11 @@ znap source rupa/z z.sh
 # vim
 #################################################################
 
-# Not sure why/if this is necessary...
 export EDITOR=vim
 
-# Remove old vim plugins and install/update the others
-nohup vim -c "PluginClean" -c "PluginInstall!" </dev/null >/dev/null 2>&1 &
-disown
+## Remove old vim plugins and install/update the others
+#nohup vim -c "PluginClean" -c "PluginInstall!" </dev/null >/dev/null 2>&1 &
+#disown
 
 
 ################################################################################
