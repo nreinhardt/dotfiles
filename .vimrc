@@ -51,8 +51,8 @@
 " " Delete inserted 4 spaces with one keystroke
 " set softtabstop=2
 " 
-" " Don't create swapfiles
+" Don't create swapfiles
 " set noswapfile
-" 
+ 
 " " Turn syntax highlighting on
-" syntax on
+syntax on
