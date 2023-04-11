@@ -2,7 +2,6 @@
 # Znap
 #################################################################
 
-
 # Download Znap, if it's not there yet.
 [[ -f ~/Git/zsh-snap/znap.zsh ]] ||
     git clone https://github.com/marlonrichert/zsh-snap.git ~/Git/zsh-snap
@@ -13,11 +12,8 @@ source ~/Git/zsh-snap/znap.zsh  # Start Znap
 #znap prompt sindresorhus/pure
 
 # `znap source` automatically downloads and installs your plugins.
-# Disable logging. Doesn't work in GitHub Codespaces.
-export ZSH_AUTOCOMPLETE_LOG_FILE=/dev/null
-znap source marlonrichert/zsh-autocomplete
+#znap source marlonrichert/zsh-autocomplete
 zstyle ':autocomplete:*' min-delay 0.6  # float
-
 
 znap source zsh-users/zsh-autosuggestions
 znap source zsh-users/zsh-syntax-highlighting
